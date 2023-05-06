@@ -18,20 +18,9 @@ function App() {
           <Route path='/register' element={<Register />} />
           <Route path='/add' element={<AddProduct />} />
           <Route path='/update' element={<UpdateProduct />} />
-            
-          
 
-          <Route path='/register'>
-            <Register />
-          </Route>
 
-          <Route path='/add'>
-            <AddProduct />
-          </Route>
 
-          <Route path='/update'>
-            <UpdateProduct />
-          </Route>
         </Routes>
       </BrowserRouter>
     </div>
